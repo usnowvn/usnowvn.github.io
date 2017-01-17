@@ -1,0 +1,13 @@
+# Site settings
+baseurl: "/"
+asseturl: "/assets"
+name: "US Now"
+skin: "xmas"
+lang:
+ read_more: ">xem>"
+
+# Build settings
+markdown: redcarpet
+permalink: /:categories/:title
+paginate: 120
+paginate_path: /page:num
