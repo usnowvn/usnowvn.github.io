@@ -1,7 +1,14 @@
 ---
 layout: page
-title: Show post by category
+title: Xem tinh trang don han
 ---
-{% assign c = page.path|split:'/'|first %}
-<!--h3>{{c}}</h3-->
-{% include {{site.skin}}/cate %}
+<script>
+function x() {
+	window.location.pathname = '/'+document.getElementById('search_bar').value;
+  return false;
+}
+</script>
+<form onsubmit="return x()">
+  <input type="search" name="search" id="search_bar" placeholder="so hoa don" />
+  <button type="submit" class="btn btn-primary">Xem</button>
+</form>
