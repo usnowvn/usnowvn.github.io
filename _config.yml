@@ -1,5 +1,5 @@
 # Site settings
-baseurl: "/"
+baseurl: ""
 asseturl: "/assets"
 name: "US Now"
 skin: "xmas"
